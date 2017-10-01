@@ -226,7 +226,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Cruises</h2>
-            <!-- h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3 -->
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
         <div class="row">
@@ -307,6 +307,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading">Cruises</h2>
+            <h3 class="section-subheading text-muted">Click on thumbnails for more images from cruises.</h3>
           </div>
         </div>
         <div class="row">
@@ -314,12 +315,7 @@
             <ul class="timeline">
               <li>
                 <div class="timeline-image">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                        <i class="fa fa-plus fa-3x"></i>
-                      </div>
-                    </div>
+                  <a class="portfolio-link" data-toggle="modal" href="#cruiseModal1">
                     <img class="rounded-circle img-fluid" src="img/about/knorr.jpg" alt="">
                   </a>
                 </div>
@@ -335,7 +331,9 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/knorr.jpg" alt="">
+                  <a class="portfolio-link" data-toggle="modal" href="#cruiseModal1">
+                    <img class="rounded-circle img-fluid" src="img/about/knorr.jpg" alt="">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -349,7 +347,9 @@
               </li>
               <li>
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/knorr.jpg" alt="">
+                  <a class="portfolio-link" data-toggle="modal" href="#cruiseModal1">
+                    <img class="rounded-circle img-fluid" src="img/about/knorr.jpg" alt="">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -363,7 +363,9 @@
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/algoa.jpg" alt="">
+                  <a class="portfolio-link" data-toggle="modal" href="#cruiseModal1">
+                    <img class="rounded-circle img-fluid" src="img/about/algoa.jpg" alt="">
+                  </a>
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
@@ -385,14 +387,7 @@
             </ul>
           </div>
         </div>
-      </div -->
-
-
-
-
-
-
-
+      </div-->
 
     <!-- Publications -->
     <section class="bg-light" id="publications">
@@ -1012,6 +1007,57 @@
         </div>
       </div>
     </div>
+
+    <!-- Cruise modals -->
+    <!-- Modal 1 -->
+    <!--div id="cruiseModal1" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/about/knorr.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/about/knorr.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/about/knorr.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 4</div>
+          <img src="img/about/knorr.jpg" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/about/knorr.jpg" onclick="currentSlide(1)" alt="Nature">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/about/knorr.jpg" onclick="currentSlide(2)" alt="Trolltunga">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/about/knorr.jpg" onclick="currentSlide(3)" alt="Mountains">
+        </div>
+
+        <div class="column">
+          <img class="demo" src="img/about/knorr.jpg" onclick="currentSlide(4)" alt="Lights">
+        </div>
+      </div>
+    </div-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
